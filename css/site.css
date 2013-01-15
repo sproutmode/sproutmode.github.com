@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: sub;
 }
 
-#tagline {
+#brand a {
     color: #dfd5ad;
     line-height: 28px;
     font-size: 24px;
@@ -27,6 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 #brand a:hover {
     text-decoration: none;
 }
+
+/* :visited :active :focus */
 
 body > header {
     background-image: none;
@@ -38,7 +40,7 @@ header nav {
 
 header nav li {
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 16px;
     float: right;
     margin: 0 0 0 16px;
     list-style-type: none;
@@ -56,40 +58,33 @@ header nav li a:hover {
     border-bottom: 2px solid #dfd5ad;
 }
 
+/* :visited :active :focus */
+
 section {
     padding: 36px 0;
 }
 
-section#banner {
-    background-color: #dfd5ad;
-}
-
-section#testimonials {
+section:nth-child(odd) {
     background-color: #baafa3;
 }
 
-#banner p {
-    font-size: 1.2em;
+section:nth-child(even) {
+    background-color: #dfd5ad;
 }
 
-#banner h1 {
-    font-size: 1.8em;
-    margin: 0 0 16px 0;
+.banner p {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 24px 0;
 }
 
-#testimonials h2 {
-    font-size: 1.8em;
-    margin: 0 0 16px 0;
+.banner h1 h2 {
+    font-size: 24px;
 }
 
-.testimonial p {
-    font-size: 1.2em;
-    line-height: 20px;
-}
-
-.testimonial .name {
+.testimonial small {
     float: right;
-    font-size: 1.1em;
+    font-size: 16px;
 }
 
 .carousel-control {
@@ -120,7 +115,6 @@ section#testimonials {
   filter: alpha(opacity=90);
 }
 
-
 .carousel-control.left {
     right: auto;
     left: -60px;
@@ -143,7 +137,7 @@ section#testimonials {
 
 .call-to-action a {
     font-family: 'Arvo', serif;
-    font-size: 1.2em;
+    font-size: 16px;
     line-height: 32px;
     color: #eee;
 }
@@ -151,6 +145,8 @@ section#testimonials {
 .call-to-action a:hover {
     text-decoration: none;
 }
+
+// :visited :active :focus
 
 .call-to-action img {
     vertical-align: bottom;
@@ -160,7 +156,7 @@ section#testimonials {
 footer {
     padding: 36px 0;
     color: #dfd5ad;
-    font-size: 0.9em;
+    font-size: 12px;
 
 }
 
@@ -176,6 +172,8 @@ footer a:hover {
     color: #dfd5ad;
     text-decoration: underline;
 }
+
+/* :visited :active :focus */
 
 footer ul.social-networks {
     margin: 0;
