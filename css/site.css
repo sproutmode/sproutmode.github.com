@@ -34,11 +34,11 @@ body > header {
     background-image: none;
 }
 
-header nav {
+nav {
     margin: 36px 0;
 }
 
-header nav li {
+nav li {
     font-weight: bold;
     font-size: 16px;
     float: right;
@@ -46,16 +46,19 @@ header nav li {
     list-style-type: none;
 }
 
-header nav li a {
+nav li a {
     line-height: 28px;
     color: #dfd5ad;
     text-decoration: none;
 }
 
-header nav li a:hover {
+nav li.active a, nav li a:hover {
+    border-bottom: 2px solid #dfd5ad;
+}
+
+nav li a:hover {
     color: #dfd5ad;
     text-decoration: none;
-    border-bottom: 2px solid #dfd5ad;
 }
 
 /* :visited :active :focus */
@@ -200,4 +203,42 @@ footer ul.social-networks a:hover {
 
 footer ul.social-networks a:hover {
     background-color: #3bbceb;
+}
+
+.page-title {
+    margin: 0 0 24px 0;
+}
+
+.people {
+    text-align: center;
+}
+
+.people img {
+    border: 3px solid #eee;
+}
+
+.people .name {
+    margin: 6px 0 2px 0;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+}
+
+.people .title {
+    margin: 2px 0;
+    font-size: 12px;
+}
+
+.people li {
+    float: left;
+    margin: 0 6px 0 0;
+    list-style-type: none;
+}
+
+.people a {
+    color: #484028;
+}
+
+.people a:hover {
+    color: #000;
+    text-decoration: none;
 }
