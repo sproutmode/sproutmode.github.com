@@ -146,7 +146,7 @@ section:nth-child(even) {
     text-decoration: none;
 }
 
-// :visited :active :focus
+/* :visited :active :focus */
 
 .call-to-action img {
     vertical-align: bottom;
