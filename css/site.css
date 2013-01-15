@@ -1,6 +1,8 @@
 body {
     background-color: #74685a;
     color: #494128;
+    font-size: 16px;
+    line-height: 24px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -40,7 +42,6 @@ nav {
 
 nav li {
     font-weight: bold;
-    font-size: 16px;
     float: right;
     margin: 0 0 0 16px;
     list-style-type: none;
@@ -77,8 +78,6 @@ section:nth-child(even) {
 }
 
 .banner p {
-    font-size: 18px;
-    line-height: 27px;
     margin: 24px 0;
 }
 
@@ -86,9 +85,17 @@ section:nth-child(even) {
     font-size: 24px;
 }
 
+.chat {
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .testimonial small {
     float: right;
-    font-size: 16px;
     font-weight: 800;
 }
 
@@ -143,7 +150,6 @@ section:nth-child(even) {
 
 .call-to-action a {
     font-family: 'Arvo', serif;
-    font-size: 16px;
     line-height: 32px;
     color: #eee;
 }
@@ -206,7 +212,46 @@ footer ul.social-networks a:hover {
 }
 
 .page-title {
-    margin: 0 0 24px 0;
+    margin: 0 0 36px 0;
+}
+
+.chat a:hover {
+    text-decoration: none;
+}
+
+.specialties {
+    margin: 0;
+}
+
+.specialties li {
+    list-style-type: none;
+    margin: 0 0 4px 0;
+}
+
+.rule-left {
+    border-bottom: 1px solid #ccc2a3;
+    float: left;
+    height: 1px;
+    width: 46%;
+}
+
+.rule-right {
+    border-bottom: 1px solid #ccc2a3;
+    float: right;
+    height: 1px;
+    width: 46%;
+}
+
+.asterisk {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto -11px auto;
+    display: block;
+}
+
+.separator {
+    margin: 60px 0;
+    color: #ccc2a3;
 }
 
 .people {
@@ -219,7 +264,6 @@ footer ul.social-networks a:hover {
 
 .people .name {
     margin: 6px 0 2px 0;
-    font-size: 16px;
     font-family: 'Arvo', serif;
 }
 
