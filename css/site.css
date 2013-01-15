@@ -66,6 +66,7 @@ section {
 
 section:nth-child(odd) {
     background-color: #baafa3;
+    background-image: url('../img/background.png');
 }
 
 section:nth-child(even) {
