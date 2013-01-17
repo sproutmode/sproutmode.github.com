@@ -300,3 +300,21 @@ footer ul.social-networks a:hover {
 .portfolio .work-nature {
     font-size: 14px;
 }
+
+.contact {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contact li {
+    margin: 0 0 12px 0;
+    list-style-type: none;
+}
+
+address.contact {
+    line-height: 30px;
+}
+
+.map {
+    border: 12px solid #baafa3;
+}
