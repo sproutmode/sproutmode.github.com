@@ -286,3 +286,17 @@ footer ul.social-networks a:hover {
     color: #000;
     text-decoration: none;
 }
+
+
+.portfolio {
+    text-align: center;
+    margin: 0 0 24px 0;
+}
+
+.portfolio .name {
+    margin: 12px 0 6px 0;;
+}
+
+.portfolio .work-nature {
+    font-size: 14px;
+}
