@@ -301,17 +301,17 @@ footer ul.social-networks a:hover {
     font-size: 14px;
 }
 
-.contact {
+.contact-page {
     font-size: 20px;
     margin: 0;
 }
 
-.contact li {
+.contact-page li {
     margin: 0 0 12px 0;
     list-style-type: none;
 }
 
-address.contact {
+address.contact-page {
     line-height: 30px;
 }
 
